@@ -1,0 +1,106 @@
+*{box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+/* About us Section design start from here */
+.about-main{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(img/bg-banner-2.png);
+
+}
+
+.img-div{
+width: 50%;
+
+
+}
+
+.img-div img{
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+.article-div{
+    width: 50%;
+    margin:auto 0px;
+
+    
+}
+.article-div h1{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 40px;
+
+
+}
+.article-div p{
+    font-family:sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 450;
+    color:gray;
+    width: 70%;
+    margin-bottom: 25px;
+    padding-top: 12px;
+
+
+}
+
+.article-div button{
+    padding:15px 25px;
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top,rgb(216, 142, 6),rgb(253, 107, 62));
+    margin-bottom: 25px;
+
+
+}
+
+/* Responsive-under-1020px-screen-start-here */
+@media screen and (max-width:1020px){
+body{
+    flex-direction: column;
+}
+
+.img-div img{
+    width:60%;
+
+}
+
+} 
+/* Responsive-under-1020px-screen-end-here */
+
+/* Responsive-under-664px-screen-Start-here */
+@media screen and (max-width:664px){
+    body{
+        flex-direction: column;
+    }
+    
+    .article-div{
+        width: 100%;
+        padding-left: 130px;
+         
+    }
+    .about-main{
+        background-image: url(img/bg-banner-4.jpg);
+
+    }
+      
+    .img-div img{
+        margin-left: 150px;
+        width: 80%;;
+        
+    }
+        
+  } 
+ /* Responsive-under-1020px-screen-end-here */
+
+   /* About us Section design End here */ 
+        
+    
